@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Rosario:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* 
+#132A13
+#31572C
+#4F772D
+#90A955
+#ECF39E
+*/
+
+body {
+    font-family: 'Rosario', sans-serif;
+    text-align: center;
+    background-color: #002962;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/bahia-aguilas.jpg");
+    background-size: cover;
+    color: #FFFFFF;
+    height: 100vh;
+    padding: 0 40px;
+}
+
+.hero-section__title {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    background-color: #002962;
+    border-radius: 10px;
+}
+
+.hero-section__caption {
+    background-color: #002962;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.activities-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    background-color: #FFFFFF;
+    color: #002962;
+}
+
+.activities-section__title {
+    background-color: #FFFFFF;
+    color: #C00021;
+    padding-top: 40px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.activities-section__items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 40px;
+}
+
+.activities-section__heading {
+    padding-bottom: 10px;
+    color: #C00021;
+}
+
+.activities-section__img {
+    width: 200px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    transition: all 0.5s ease-out;
+}
+
+.activities-section__img:hover {
+    width: 250px;
+    border-radius: 10%;
+    border: 3px solid #002962;
+}
+
+footer {
+    margin-bottom: 50px;
+    color: #FFFFFF;
+}
+
+.footer-title {
+    padding: 40px 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.footer__photo {
+    width: 300px;
+    border-radius: 100%;
+}
+
+.footer-container {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #002962;
+}
+
+.footer-container__items{    
+    margin: 20px;
+    width: 500px;
+}
+
+.footer-container__subheading {
+    margin-bottom: 20px;
+}
